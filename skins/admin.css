@@ -1,0 +1,31 @@
+/* 
+    Document   : admin
+    Created on : Jan 23, 2014, 8:46:32 PM
+    Author     : abhishek_s
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.ui-widget-content {
+    color: rgb(68, 68, 68);
+    font-family: "Open Sans",sans-serif;  
+    font-size: 86%;
+}
+
+.ui-widget-content label,.ui-widget-content input,.ui-widget-content select,.ui-widget-content a {
+    color: rgb(68, 68, 68);
+    font-family: "Open Sans",sans-serif;   
+    font-size: 13px;
+}
+.ui-widget-content .form-table th {
+    width: 310px;
+    text-align: right;
+}
+.version {
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    margin: 0px 0px 0px 10px;
+    padding: 1px 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+

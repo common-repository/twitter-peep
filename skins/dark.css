@@ -1,0 +1,16 @@
+/* 
+    Document   : stylesheet
+    Created on : Jan 20, 2014, 9:13:46 PM
+    Author     : abhishek_s
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background: #ccc;
+}
+
+a {
+    color:red;
+}
+

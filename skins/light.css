@@ -1,0 +1,101 @@
+/* 
+    Document   : stylesheet
+    Created on : Jan 20, 2014, 9:13:46 PM
+    Author     : abhishek_s
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*Reset*/
+.widget_ajaxtown_twitter ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+}
+.widget_ajaxtown_twitter .nicescroll {
+    height: 300px;
+}
+.widget_ajaxtown_twitter li .entry-content {
+    padding: 0px !important;
+}
+
+/* common */
+.widget_ajaxtown_twitter a {
+   
+}
+.widget_ajaxtown_twitter li{
+    padding: 10px 0px;
+    text-align: justify;
+    border-bottom: 1px dotted #ccc;   
+    margin: 0px;
+}
+.widget_ajaxtown_twitter li .clearfix {
+    clear: both;
+}
+.widget_ajaxtown_twitter .entry-content{
+    display: block;
+    clear: both;
+    margin: 0px;
+}
+
+.widget_ajaxtown_twitter .intent-meta a {
+    margin-right: 8px;
+}
+.widget_ajaxtown_twitter .intent-meta i{
+    width: 16px;
+    height: 16px;
+}
+.widget_ajaxtown_twitter .time-meta i{
+    width: 16px;
+}
+
+.widget_ajaxtown_twitter .top-meta{
+    display: block;
+    height: 26px;
+    font-size: 85%;
+    
+}
+.widget_ajaxtown_twitter ul li:before {
+    content: '' !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}    
+.widget_ajaxtown_twitter .bot-meta {
+    display: block;
+    opacity: 0;
+    font-size: 85%;
+    padding-bottom: 5px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    
+}
+.widget_ajaxtown_twitter li .bot-meta span {
+    height: 0px;
+}
+.widget_ajaxtown_twitter li.hoveractive:hover .bot-meta {    
+    padding-bottom: 15px;
+    opacity: 1;
+    padding-top: 0px;
+}
+.widget_ajaxtown_twitter .twitter-stats li {
+    text-align: center;
+}
+
+.widget_ajaxtown_twitter .toggle-intent {
+    margin-left: 5px;
+}
+
+.widget_ajaxtown_twitter .clearfix {
+    clear: both;
+}
+.tp-left {
+    float: left;
+}
+.tp-right {
+    float: right;
+}
+
+
+
